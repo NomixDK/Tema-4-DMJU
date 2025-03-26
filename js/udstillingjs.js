@@ -5,6 +5,10 @@ showSlides(slideIndex);
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
+setInterval(function() {
+    plusSlides(1);
+}, 3000);
+
 
 // Thumbnail image controls
 function currentSlide(n) {
