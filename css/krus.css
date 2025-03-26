@@ -1,20 +1,17 @@
-.container {
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 .tekst_boks{
-    width: 90%;
+    width: 80%;
     height: 40%;
     background-color: #D9D9D9;
     padding: 30px;
-
-
-
 }
 .baggrunds_boks_til_tekst_krus{
-    width: 90%;
+    width: 80%;
     height: 40%;
     background-color: #D9D9D9;
     padding: 30px;
@@ -22,4 +19,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.årets_krus_overskrift{
+    font-family: "Winky Sans", sans-serif;
+}
+.årets_krus_tekst{
+    background-color: #D9D9D9;
+    font-family: "Winky Sans", sans-serif;
+    text-align: left;
 }
