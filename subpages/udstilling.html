@@ -5,54 +5,272 @@
     <title>Udstilling</title>
     <link rel="stylesheet" href="../css/udstillingstyle.css">
 
+    <!... links skrifttype>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Winky+Sans&display=swap" rel="stylesheet">
+<!... slut på links til skrifttype>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bootstrap Template">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/forsidestyle.css">
+
+    <!-- Scripts -->
+    <script src="../js/vendor/bootstrap.bundle.min.js" defer></script>
+    <script src="../js/script.js" defer></script>
+    <script src="../js/udstillingjs.js" defer></script>
 
 
 </head>
+
+<body>
+<header>
+    <div class="container col-11">
+        <div class="d-flex flex-row align-items-center">
+            <div>
+                <a href="../index.html">
+                    <img src="../img/DMJU-Logo.jpg" height="100" width="100"/>
+                </a>
+            </div>
+            <div class="h1 p-5 m-auto">
+                <h1>Dansk Model Jernbane Union</h1>
+            </div>
+            <div id="login-box" class="container position-relative">
+                <div class="d-flex flex-row"> <!-- Facebook -->
+
+                    <a class="text-decoration-none text-black" href="https://www.facebook.com/profile.php?id=100064717479137">
+                        <p  class="text-nowrap mb-0 mt-0 right-align">Følg os</p>
+                    </a>
+                    <img class="right-align" src="../img/FacebookLogo.jpg" height="30" width="30"/>
+                </div> <!-- /Facebook -->
+
+
+                <div class="container mt-2"> <!-- Medlem -->
+                    <div class="row">
+                        <a id="red-button" class="btn btn-primary" href="subpages/medlem.html" role="button">Medlem</a>
+                    </div>
+                </div> <!-- /Medlem -->
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container col-12 bg-blue pb-2 pt-2 ">
+            <!-- dropdowns -->
+            <ul>
+                <li><a href="../index.html" class="text">Forside</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a class="droptext">Nyheder</a>
+                        <div class="dropdown-content">
+                            <a href="#">〉Årets Model 2025</a>
+                            <a href="#">〉Nyt fra vores sponsorer</a>
+                            <a href="#">〉DMJU News</a>
+                            <a href="subpages/udstilling.html">〉DMJU Messe 2025</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <a class="droptext">Alt om DJMU</a>
+                        <div class="dropdown-content">
+                            <a href="subpages/bestyrelse.html">〉Om os - Bestyrelsen</a>
+                            <a href="#">〉Kommercielle kontakter</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <a class="droptext">Tips og Ideér</a>
+                        <div class="dropdown-content">
+                            <a href="#">〉Om os</a>
+                            <a href="#">〉Kommercielle kontakter</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="dropdown">
+                        <a class="droptext">Tidligere Events</a>
+                        <div class="dropdown-content">
+                            <a href="#">〉Model Jernbanens Dag</a>
+                            <a href="subpages/fotokonkurrence.html">〉DMJU Foto Konkurrence</a>
+                            <a href="#">〉Årets Model</a>
+                            <a href="subpages/krus.html">〉Årets Krus</a>
+                            <a href="#">〉Tidligere Udstillinger</a>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+
+        </div>
+    </nav>
+</header>
+
+
+
+
+<section class="skrifttype">
 <h1 class="overskrift">DMJU Præsentere: MODELTOG for alle 2025</h1>
+    <section class="nanbillede">
+    <img src="../img/Fotos/Frame%2046.jpg">
+    </section>
 
-<p class="tekst">DMJU arrangerer hvert år Danmarks største model jernbane udstilling “MODELTOG FOR ALLE”. Med mere end 20 store klubanlæg i flere skalastørrelser, events, og mange butiks stande med gode tilbud, er DMJU’s udstillinger et must for både de inkarnerede model jernbane entusiaster og børnefamilierne. Udstillingerne er et godt udflugtsmål på en lørdag eller søndag.
-    Første DMJU udstilling blev afholdt i 1994, og i 2025 er det således nu den 28. gang at DMJU arrangerer udstilling. Udstillingerne afholdes skiftevis øst og vest for Storebælt. Den kommende udstilling finder sted i Taastrup Idræts Center 29.-30 Marts 2025</p>
+</section>
+<div class="baggrund">
+<p class="tekst">
+    DMJU arrangerer hvert år Danmarks største model jernbane udstilling “MODELTOG FOR ALLE”. <br>
+    Med mere end 20 store klubanlæg i flere skalastørrelser, events, og mange butiks stande med gode tilbud, er DMJU’s udstillinger et must for både de inkarnerede model jernbane entusiaster og børnefamilierne. Udstillingerne er et godt udflugtsmål på en lørdag eller søndag.
+    <br>
+    Første DMJU udstilling blev afholdt i 1994, og i 2025 er det således nu den 28. gang at DMJU arrangerer udstilling.
+    <br>Udstillingerne afholdes skiftevis øst og vest for Storebælt.
+    <br>Den kommende udstilling finder sted i Taastrup Idræts Center 29.-30 Marts 2025</p>
 
-<h3 class="overskrift tekst">Til Besøgende</h3>
+</div>
 
-<p class="tekst overskrift">
+<div class="baggrund">
+<h2 class="overskrift">Til Besøgende</h2>
+
+<p class="tekst">
     28. INTERNATIONALE DMJU MODEL JERNBANE UDSTILLING
     <br>
-    Åbningstider:
+    <ul>Åbningstider:
+<br>
     <br>
-    <li class="tekst">Lørdag 29. Marts 2025 kl. 10-17</li>
-   <li class="tekst"> Søndag 30. Marts 2025 kl. 10-16</li>
-    <li>Priser:</li>
+    <li>Lørdag 29. Marts 2025 kl. 10-17</li>
+   <li> Søndag 30. Marts 2025 kl. 10-16</li>
+    <br>
+    Priser:
+<br>
     <br>
     <li>Voksne kr. 110 kr </li>
     <li>Børn (2-12 år) kr. 50 kr </li>
-    <br>
+<br>
     Billetten til udstillingen gælder for begge dage og giver adgang til alle haller.
-    <br>Gæster med handicap betaler entre på lige fod med DMJU`s øvrige gæster og kan, mod forevisning af gyldigt ledsagerkort på besøgsdagen i udstillingen, medtage en ledsager over 18 år gratis.
-    <br>Vores udstilling har niveau fri adgang, og til nogle af hallerne er der ramper.
+    Gæster med handicap betaler entre på lige fod med DMJU`s øvrige gæster og kan, mod forevisning af gyldigt ledsagerkort på besøgsdagen i udstillingen, medtage en ledsager over 18 år gratis.
+    Vores udstilling har niveau fri adgang, og til nogle af hallerne er der ramper.
     Tag gerne Bus 117, lige til døren, da vi ikke har kæmpe parkerings område.
+<br>
     <br>
     Udstillings adresse:
+    <br>
     <br>
     <li>Taastrup Idrætscenter</li>
     <li>Parkvej 78</li>
     <li>2630 Taastrup</li>
+</ul>
+    <br>
 </p>
+</div>
 
-<h3 class="overskrift tekst">Events og Workshops</h3>
+<div class="baggrund">
+<h2 class="overskrift">Events og Workshops</h2>
 
-<p class="tekst">På DMJU´s udstillinger afholder vi en række events og workshops i løbet at weekenden. Det gør vi for at skabe en mere levende og interessant udstilling både for gæster som er nye i hobbyen men også for de gravede og rutineret.
-    Forventningen til en workshop er:
+<p class="tekst">
+    På DMJU´s udstillinger afholder vi en række events og workshops i løbet at weekenden.
+    <br>Det gør vi for at skabe en mere levende og interessant udstilling både for gæster som er nye i hobbyen men også for de gravede og rutineret.
+    <br>Forventningen til en workshop er:
     en times varighed. Skal kunne afholdes både lørdag og søndag.
-    Jernbane-/modeljernbanerelaterede emner fra den virkelige verden, digitaldrift, anlæg byg. debatmøde.
-    Ved forslag skal man også kunne stille med en relevant person der kan forestå en sådanne event. </p>
+    <br>Jernbane-/modeljernbanerelaterede emner fra den virkelige verden, digitaldrift, anlæg byg. debatmøde.
+    <br>Ved forslag skal man også kunne stille med en relevant person der kan forestå en sådanne event. </p>
+
+</div>
 
 
+</div>
 
-    <body>
 
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="../img/Heljan-vogn-700x300.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="../img/sponsor-logo-Elos-copy-700x300.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="../img/sponsor-logo-vogn-Kystbanen-copy-700x300.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="../img/sponsor-logo-vogn-Nettog-copy-700x300.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="../img/sponsor-logo-vogn-OK-stoetter-copy-700x300.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="../img/sponsor-logo-vogn-SMT-copy-1-700x300.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="../img/sponsor-logo-vogn-tog-og-tekno-copy-700x300.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="../img/sponsor-logo-vogn-Vf-copy-700x300.jpg" style="width:100%">
+
+        </div>
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+
+    <br>
+
+
+<footer id="footer" class="text-center text-muted m-auto col-12 col-md-11 flex bg-blue">
+    <nav id="navbar-custom" class="navbar navbar-expand-lg">
+        <div class="container col-12 bg-blue pb-2 pt-2 ">
+            <!-- dropdowns -->
+            <ul>
+                <div class="container">
+
+                    <li><a href="subpages/links.html" class="text">Links</a></li>
+                    <li><a href="#" class="text">Person Data Politik</a></li>
+                    <li><a href="#" class="text">Optagelse til DJMU</a></li>
+                </div>
+            </ul>
+
+        </div>
+
+    </nav>
+    <p class="text-white">&copy; 2025 Dansk Model Jernbane Union. All rights reserved.</p>
+
+</footer>
 </body>
 </html>
