@@ -4,11 +4,13 @@
     align-items: center;
     flex-direction: column;
 }
-.tekst_boks{
-    width: 80%;
-    height: 40%;
+.årets_krus_overskrift{
+    font-family: "Winky Sans", sans-serif;
+}
+.årets_krus_tekst{
     background-color: #D9D9D9;
-    padding: 30px;
+    font-family: "Winky Sans", sans-serif;
+    text-align: left;
 }
 .baggrunds_boks_til_tekst_krus{
     width: 80%;
@@ -20,12 +22,23 @@
     align-items: center;
     flex-direction: column;
 }
-
-.årets_krus_overskrift{
+.tekst_boks{
+    width: 80%;
+    height: 40%;
+    background-color: #D9D9D9;
+    padding: 30px;
+}
+.Links_overskrift{
     font-family: "Winky Sans", sans-serif;
 }
-.årets_krus_tekst{
+.top_tekst{
     background-color: #D9D9D9;
     font-family: "Winky Sans", sans-serif;
     text-align: left;
+}
+.top_boks{
+    width: 80%;
+    height: 40%;
+    background-color: #D9D9D9;
+    padding: 30px;
 }
