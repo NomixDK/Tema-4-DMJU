@@ -3,26 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Medlem</title>
-    <link rel="stylesheet" href="../css/medlemcss.css">
+
+    <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/medlemstyle.css">
 
 
+    <!... links skrifttype>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans&display=swap" rel="stylesheet">
+
+
+    <!... slut på links til skrifttype>
 </head>
 <body>
+<div class="skrifttype">
 <form>
     <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <small id="emailHelp" class="form-text text-muted">DMJU Medlem</small>
+        <br>
+        <label for="exampleInputEmail1">Email eller Brugernavn</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email eller Brugernavn">
+
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <label for="exampleInputPassword1">Kodeord</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Kodeord">
     </div>
     <div class="form-group form-check">
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <label class="form-check-label" for="exampleCheck1">Husk Mig</label>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Log På</button>
 </form>
+
+
+</div>
 </body>
 </html>
