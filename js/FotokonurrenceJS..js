@@ -1,6 +1,11 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+// Automatic slide change every 3 seconds (3000 milliseconds)
+setInterval(function() {
+    plusSlides(1);
+}, 3000);
+
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
