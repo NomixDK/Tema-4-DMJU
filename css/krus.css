@@ -1,4 +1,4 @@
-.container{
+.container-tekst-boks {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +49,12 @@
     padding: 30px;
 }
 .boks2{
+    width: 80%;
+    height: 40%;
+    background-color: #D9D9D9;
+    padding: 30px;
+}
+.boks3{
     width: 80%;
     height: 40%;
     background-color: #D9D9D9;
