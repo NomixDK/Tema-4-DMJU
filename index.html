@@ -8,7 +8,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forsidestyle.css">
 
     <!-- Scripts -->
     <script src="js/vendor/bootstrap.bundle.min.js" defer></script>
@@ -20,69 +20,137 @@
         <div class="container col-11">
             <div class="d-flex flex-row align-items-center">
                 <div>
-                    <img src="img/DMJU-Logo.jpg" height="100" width="100"/>
+                    <a href="../index.html">
+                        <img src="img/DMJU-Logo.jpg" height="100" width="100"/>
+                    </a>
             </div>
                 <div class="h1 p-5 m-auto">
                     <h1>Dansk Model Jernbane Union</h1>
                 </div>
-
                 <div id="login-box" class="container position-relative">
-
                     <div class="d-flex flex-row"> <!-- Facebook -->
-                        <p class="text-nowrap mb-0 mt-0 rightalign">Følg os</p>
-                        <img class="rightalign" src="img/FacebookLogo.jpg" height="30" width="30"/>
+
+                        <a class="text-decoration-none text-black" href="https://www.facebook.com/profile.php?id=100064717479137">
+                            <p  class="text-nowrap mb-0 mt-0 right-align">Følg os</p>
+                        </a>
+                        <img class="right-align" src="img/FacebookLogo.jpg" height="30" width="30"/>
                     </div> <!-- /Facebook -->
 
 
                     <div class="container mt-2"> <!-- Medlem -->
                         <div class="row">
-                            <a id="red-button" class="btn btn-primary" href="#" role="button">Medlem</a>
+                            <a id="red-button" class="btn btn-primary" href="subpages/medlem.html" role="button">Medlem</a>
                         </div>
                     </div> <!-- /Medlem -->
                 </div>
-
-
             </div>
         </div>
 
 
-        <nav id="navbar-custom" class="navbar navbar-expand-lg ">
-            <div class="container col-11 bg-blue pb-2 pt-2">
-                <a class="navbar-link active" href="#">Forside</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                            </ul>
-                        </li>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container col-12 bg-blue pb-2 pt-2 ">
+                <!-- dropdowns -->
+                <ul>
+                    <li><a href="../index.html" class="text">Forside</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="droptext">Nyheder</a>
+                            <div class="dropdown-content">
+                                <a href="#">〉Årets Model 2025</a>
+                                <a href="#">〉Nyt fra vores sponsorer</a>
+                                <a href="#">〉DMJU News</a>
+                                <a href="subpages/udstilling.html">〉DMJU Messe 2025</a>
+                            </div>
+                        </div>
+                    </li>
 
-                    </ul>
+                    <li>
+                        <div class="dropdown">
+                            <a class="droptext">Alt om DJMU</a>
+                            <div class="dropdown-content">
+                                <a href="subpages/bestyrelse.html">〉Om os - Bestyrelsen</a>
+                                <a href="#">〉Kommercielle kontakter</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="dropdown">
+                            <a class="droptext">Tips og Ideér</a>
+                            <div class="dropdown-content">
+                                <a href="#">〉Om os</a>
+                                <a href="#">〉Kommercielle kontakter</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="dropdown">
+                            <a class="droptext">Tidligere Events</a>
+                            <div class="dropdown-content">
+                                <a href="#">〉Model Jernbanens Dag</a>
+                                <a href="subpages/fotokonkurrence.html">〉DMJU Foto Konkurrence</a>
+                                <a href="#">〉Årets Model</a>
+                                <a href="subpages/krus.html">〉Årets Krus</a>
+                                <a href="#">〉Tidligere Udstillinger</a>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     </form>
-                </div>
-            </div>
-        </nav>
 
+                </div>
+        </nav>
     </header>
 
-    <main class="flex-grow-1">
-        <section class="container mt-4">
-            <h1>Bootstrap Template Vanilla</h1>
-            <p>
-                This is a template to getting started building a webapp using Bootstrap.
-            </p>
-        </section>
-    </main>
+    <main class="flex-grow-1"> <!-- MAIN BODY -->
+
+        <section class="container mt-4 col-11 bg-blue"> <!-- Nyheder -->
+            <div class="d-flex flex-column row-cols-auto">
+                <div class="col bg-danger">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque excepturi hic in iure maxime neque quae quam similique ut veniam.</p>
+                </div>
+                <div class="col bg-danger">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque excepturi hic in iure maxime neque quae quam similique ut veniam.</p>
+                </div>
+                <div class="col bg-danger">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque excepturi hic in iure maxime neque quae quam similique ut veniam.</p>
+                </div>
+                <div class="col bg-danger">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque excepturi hic in iure maxime neque quae quam similique ut veniam.</p>
+                </div>
+
+
+            </div>
+        </section> <!-- /Nyheder -->
+
+
+
+    </main> <!-- /MAIN BODY -->
+
 
     <footer id="footer" class="text-center text-muted m-auto col-12 col-md-11 flex bg-blue">
-        <p>&copy; 2024 Bootstrap Template Vanilla. All rights reserved.</p>
+        <nav id="navbar-custom" class="navbar navbar-expand-lg">
+            <div class="container col-12 bg-blue pb-2 pt-2 ">
+                <!-- dropdowns -->
+                <ul>
+                    <div class="container">
+
+                        <li><a href="subpages/links.html" class="text">Links</a></li>
+                        <li><a href="#" class="text">Person Data Politik</a></li>
+                        <li><a href="#" class="text">Optagelse til DJMU</a></li>
+                    </div>
+                </ul>
+
+            </div>
+
+        </nav>
+        <p class="text-white">&copy; 2025 Dansk Model Jernbane Union. All rights reserved.</p>
+
     </footer>
 </body>
 </html>
