@@ -9,36 +9,242 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Winky+Sans&display=swap" rel="stylesheet">
-</head>
-<body>
 
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/forsidestyle.css">
+
+  <!-- Scripts -->
+  <script src="../js/vendor/bootstrap.bundle.min.js" defer></script>
+  <script src="../js/script.js" defer></script>
+
+</head>
+<body class="min-vh-100 overflow-y-scroll d-flex flex-column">
+
+
+
+
+<header>
+  <div class="container col-11">
+    <div class="d-flex flex-row align-items-center">
+      <div>
+        <a href="../index.html">
+          <img src="../img/DMJU-Logo.jpg" height="100" width="100"/>
+        </a>
+      </div>
+      <div class="h1 p-5 m-auto">
+        <h1>Dansk Model Jernbane Union</h1>
+      </div>
+      <div id="login-box" class="container position-relative">
+        <div class="d-flex flex-row"> <!-- Facebook -->
+
+          <a class="text-decoration-none text-black" href="https://www.facebook.com/profile.php?id=100064717479137">
+            <p  class="text-nowrap mb-0 mt-0 right-align">Følg os</p>
+          </a>
+          <img class="right-align" src="../img/FacebookLogo.jpg" height="30" width="30"/>
+        </div> <!-- /Facebook -->
+
+
+        <div class="container mt-2"> <!-- Medlem -->
+          <div class="row">
+            <a id="red-button" class="btn btn-primary" href="subpages/medlem.html" role="button">Medlem</a>
+          </div>
+        </div> <!-- /Medlem -->
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container col-12 bg-blue pb-2 pt-2 ">
+      <!-- dropdowns -->
+      <ul>
+        <li><a href="../index.html" class="text">Forside</a></li>
+        <li>
+          <div class="dropdown">
+            <a class="droptext">Nyheder</a>
+            <div class="dropdown-content">
+              <a href="#">〉Årets Model 2025</a>
+              <a href="#">〉Nyt fra vores sponsorer</a>
+              <a href="#">〉DMJU News</a>
+              <a href="subpages/udstilling.html">〉DMJU Messe 2025</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="dropdown">
+            <a class="droptext">Alt om DJMU</a>
+            <div class="dropdown-content">
+              <a href="subpages/bestyrelse.html">〉Om os - Bestyrelsen</a>
+              <a href="#">〉Kommercielle kontakter</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="dropdown">
+            <a class="droptext">Tips og Ideér</a>
+            <div class="dropdown-content">
+              <a href="#">〉Om os</a>
+              <a href="#">〉Kommercielle kontakter</a>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="dropdown">
+            <a class="droptext">Tidligere Events</a>
+            <div class="dropdown-content">
+              <a href="#">〉Model Jernbanens Dag</a>
+              <a href="subpages/fotokonkurrence.html">〉DMJU Foto Konkurrence</a>
+              <a href="#">〉Årets Model</a>
+              <a href="subpages/krus.html">〉Årets Krus</a>
+              <a href="#">〉Tidligere Udstillinger</a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
+
+    </div>
+  </nav>
+</header>
+
+
+
+
+<div class="container-tekst-boks">
 
 <p class="top_tekst">På denne side kan du finde div. links, både til danske og internationale jernbanesider. Har du et link som kan være interessant for
   <br>andre, og som ikke findes her, kan du sende linket til <span style="color: blue;">webmaster@dmju.dk </span>eller <span style="color: blue;">formand@dmju.dk</span> </p>
 
-<div class="top_boks">
+<div class="boks1">
 
-<h1 class="Links_overskrift">ÅRETS MODEL SOM SAMLEROBJEKT</h1>
+<h1 class="Links_overskrift1">ÅRETS MODEL SOM SAMLEROBJEKT</h1>
 
-<p class="top_links"> Morop –  Verband der Modelleisenbahner und Eisenbahnfreunde Europas. <span style="color: blue">www.morop.eu</span><br><br>
+<p class="links1"> <span style="font-weight: bold ">Morop</span> –  Verband der Modelleisenbahner und Eisenbahnfreunde Europas. <span style="color: blue">www.morop.eu</span><br><br>
 
-BDEF – Bundesverband Deutscher Eisenbahn-Freunde e. V. (Tyskland) <span style="color: blue">www.bdef.de</span><br><br>
+  <span style="font-weight: bold ">BDEF – Bundesverband Deutscher Eisenbahn-Freunde e. V. .</span>(Tyskland) <span style="color: blue">www.bdef.de</span><br><br>
 
-Smv-aktuell – Sächsische Modellbahner Vereinigung. (Tyskland) <span style="color: blue">smv-aktuell.de</span><br><br>
+  <span style="font-weight: bold ">Smv-aktuell – Sächsische Modellbahner Vereinigung..</span> (Tyskland) <span style="color: blue">smv-aktuell.de</span><br><br>
 
-MJF – Modelljernbaneforeningen. (Norge) <span style="color: blue">swww.mjf.no</span><br><br>
+  <span style="font-weight: bold ">MJF – Modelljernbaneforeningen..</span> (Norge) <span style="color: blue">swww.mjf.no</span><br><br>
 
-Eisengahn Amateur – Organ des Schweizerischen Verbandes Eisenbahn – Amateur. (Schweiz) <span style="color: blue">www.eisenbahn-amateur.ch</span><br><br>
+  <span style="font-weight: bold ">Eisengahn Amateur – Organ des Schweizerischen Verbandes Eisenbahn – Amateur..</span> (Schweiz) <span style="color: blue">www.eisenbahn-amateur.ch</span><br><br>
 
-Voemec – Dachverband der österreichischen Modelleisenbahnclub. (Østrig) <span style="color: blue">www.voemec.at</span><br><br>
+  <span style="font-weight: bold ">Voemec – Dachverband der österreichischen Modelleisenbahnclub..</span> (Østrig) <span style="color: blue">www.voemec.at</span><br><br>
 
-De portaalsite voor de Belgische treinliefhebber. (Belgien) <span style="color: blue">www.febelrail.be</span><br><br>
+  <span style="font-weight: bold ">De portaalsite voor de Belgische treinliefhebber..</span> (Belgien) <span style="color: blue">www.febelrail.be</span><br><br>
 
-FCAF – Federacio Catalana D’amics del Ferrocaril. (Spanien) <span style="color: blue">www.fcaf.cat</span><br><br>
+  <span style="font-weight: bold ">FCAF – Federacio Catalana D’amics del Ferrocaril..</span> (Spanien) <span style="color: blue">www.fcaf.cat</span><br><br>
 
-Polski Zwiazek Modelarzy Kolejowych. (Polen) <span style="color: blue">www.pzmk.org.pl</span><br><br>
+  <span style="font-weight: bold ">Polski Zwiazek Modelarzy Kolejowych..</span> (Polen) <span style="color: blue">www.pzmk.org.pl</span><br>
 </p>
 </div>
+<br>
+<div class="boks2">
+
+<h1 class="Links_overskrift1">Jernbane foreninger 1:1</h1>
+
+<p class="links1"> <span style="font-weight: bold ">Dansk Jernbane Klub, DJK.</span> – Linkssider med links til alt om jernbaner og modeljernbaner.<span style="color: blue"> www.jernbaneklub.dk</span><br><br>
+
+  <span style="font-weight: bold ">Veteranbanen Bryrup Vrads.</span> <span style="color: blue">http://www.veteranbanen.dk/</span><br><br>
+
+  <span style="font-weight: bold ">Mariager-Handest Veteranjernbane.</span> <span style="color: blue">www.mhvj.dk</span><br><br>
+
+  <span style="font-weight: bold ">Danmarks Jernbanemuseum.</span> <span style="color: blue">www.jernbanemuseet.dk</span><br><br>
+
+  <span style="font-weight: bold ">De Bornholmske Jernbaner Foreningen.</span> <span style="color: blue">www.dbj.dk</span><br><br>
+
+  <span style="font-weight: bold ">Djurslands Jernbanemuseum.</span> <span style="color: blue">www.djbm.dk</span><br><br>
+
+  <span style="font-weight: bold ">Gedser Remise.</span> <span style="color: blue">http://gedserremise.dk/</span><br><br>
+
+  <span style="font-weight: bold ">Østsjællandske Jernbaneklub.</span> <span style="color: blue">www.osjk.dk</span><br><br>
+
+  <span style="font-weight: bold ">Vestsjællands Veterantog.</span> <span style="color: blue">www.vsvt.dk</span><br><br>
+
+  <span style="font-weight: bold ">Sydfynske Veteranjernbane.</span> <span style="color: blue">www.sfvj.dk</span><br><br>
+
+  <span style="font-weight: bold ">Museumsbanen Maribo-Bandholm.</span> <span style="color: blue">www.museumsbanen.dk</span><br><br>
+
+  <span style="font-weight: bold ">Limfjordsbanen.</span><span style="color: blue">www.limfjordsbanen.dk</span><br><br>
+
+  <span style="font-weight: bold ">Haderslevbanen.</span> <span style="color: blue">www.haderslevbanen.dk</span><br><br>
+
+  <span style="font-weight: bold ">Nordsjællands Veterantog.</span> <span style="color: blue">www.veterantoget.dk</span><br><br>
+
+  <span style="font-weight: bold ">Sporvejshistorisk Selskab.</span> <span style="color: blue">www.sporvejsmuseet.dk</span><br>
+</p>
+</div>
+<br>
+
+<div class="boks3">
+  <h1 class="Links_overskrift1">Tidsskrifter og magasiner</h1>
+  <p class="links1"> <span style="font-weight: bold ">Spor og Baner</span> – dansk modeljernbanetidsskrift. <span style="color: blue">www.sporogbaner.dk</span><br><br>
+
+    <span style="font-weight: bold ">Allt om Hobby</span> – Nordisk Hobby magasin. <span style="color: blue">www.hobby.se</span><br><br>
+
+    <span style="font-weight: bold ">Modelljärnvägs-magasinet </span> – Svensk modeljernbanetidsskrift. <span style="color: blue">www.mj-magasinet.se</span><br><br>
+
+    <span style="font-weight: bold ">MJ-Bladet</span>  – Norsk modeljernbanetidsskrift. <span style="color: blue">www.mjf.no</span><br><br>
+
+    <span style="font-weight: bold ">MIBA</span> – Tysk modeljernbanetidsskrift. <span style="color: blue">www.miba.de</span><br><br>
+
+    <span style="font-weight: bold ">Eisenbahn Kurier </span> – Tysk modeljernbanetidsskrift. <span style="color: blue">www.eisenbahn-kurier.de</span><br><br>
+
+    <span style="font-weight: bold ">Modell Eisen Bahner</span> – Tysk modeljernbanetidsskrift. <span style="color: blue">www.modelleisenbahner.de</span><br><br>
+
+    <span style="font-weight: bold ">Eisenbahnmagazin</span>  – Tysk modeljernbanetidsskrift. <span style="color: blue">www.eisenbahnmagazin.de</span><br><br>
+
+    <span style="font-weight: bold ">Eisenbahn-Journal</span>  – Tysk modeljernbanetidsskrift. <span style="color: blue">www.eisenbahn-journal.de</span><br><br>
+
+    <span style="font-weight: bold ">Model Railroader Magazine </span> – Amerikansk modeljernbanetidsskrift. <span style="color: blue">www.mrr.trains.com</span><br><br>
+
+    <span style="font-weight: bold ">Railway Modeller</span>  – Engelsk modeljernbanetidsskrift. <span style="color: blue">www.pecopublications.co.uk</span><br><br>
+
+    <span style="font-weight: bold ">N Bahn Magazin</span>  – Tysk spor N modeljernbanetidsskrift. <span style="color: blue">www.nbahnmagazin.de</span><br><br>
+
+    <span style="font-weight: bold ">N-Scale</span>  – Armerikansk spor N modeljernbanetidsskrift. <span style="color: blue">www.nscalemagazine.com</span><br><br>
+
+    <span style="font-weight: bold "> N-ScaleRailroading</span> – Armerikansk spor N modeljernbanetidsskrift. <span style="color: blue">www.nscalerailroadn.com</span><br><br>
+
+    <span style="font-weight: bold ">Spurnull-magazin</span>  – Tysk spor O modeljernbanetidsskrift.  <span style="color: blue">www.spurnull-magazin.de</span><br><br>
+
+    <span style="font-weight: bold ">Spurnull.de</span>  – Tysk spor O netblad i pdf-format. <span style="color: blue">www.spurnull.de</span><br><br>
+
+    <span style="font-weight: bold ">Die Zeitschrift für Schmale Spuren</span>  – Tysk spor O modeljernbanetidsskrift for smalspor. <span style="color: blue">www.schmale-spuren.com</span><br></p>
+  </div>
+
+
+</div>
+<br>
+
+<footer id="footer" class="text-center text-muted m-auto col-12 col-md-11 flex bg-blue">
+  <nav id="navbar-custom" class="navbar navbar-expand-lg">
+    <div class="container col-12 bg-blue pb-2 pt-2 ">
+      <!-- dropdowns -->
+      <ul>
+        <div class="container">
+
+          <li><a href="../subpages/Links.html" class="text">Links</a></li>
+          <li><a href="#" class="text">Person Data Politik</a></li>
+          <li><a href="#" class="text">Optagelse til DJMU</a></li>
+        </div>
+      </ul>
+
+    </div>
+
+  </nav>
+  <p class="text-white">&copy; 2025 Dansk Model Jernbane Union. All rights reserved.</p>
+
+</footer>
+
 
 </body>
 </html>
