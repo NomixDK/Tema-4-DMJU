@@ -3,6 +3,17 @@
     min-height: 75px;
 }
 
+
+.line {
+    border-bottom: 2px solid #AE3431;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#grey-transparent {
+    background-color: rgba(217,217,217,0.76);
+}
+
 button {
     border-radius: 0;
 }
