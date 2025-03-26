@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#footer {
+    min-height: 75px;
+}
+
+button {
+    border-radius: 0;
+}
+
+#login-box {
+    width: auto;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#red-button {
+    background-color: #AE3431;
+    border-radius: 0;
+    border-color: transparent;
+}
