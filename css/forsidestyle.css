@@ -45,6 +45,9 @@ button {
     width: 125px;
 }
 
+ .red-button:hover {
+     background-color: #601c1a;
+ }
 #l1-btn {
     border-radius: 0;
     border-color: transparent;
