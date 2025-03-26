@@ -79,6 +79,7 @@
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
+    animation-fill-mode: forwards;  /* Sørg for, at billedet forbliver synligt efter animationen */
 }
 
 @keyframes fade {
@@ -90,7 +91,7 @@ ul {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    background-color: yellow;
+
 }
 .container {
 --bs-gutter-x: 1.5rem;
@@ -112,4 +113,36 @@ li{
     --bs-nav-pills-border-radius: var(--bs-border-radius);
     --bs-nav-pills-link-active-color: #fff;
     --bs-nav-pills-link-active-bg: #0d6efd;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
 }
