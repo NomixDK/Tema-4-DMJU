@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="css/forsidestyle.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body class="min-vh-100 overflow-y-scroll d-flex flex-column">
 
     <header>
@@ -20,7 +24,7 @@
                         <img src="img/DMJU-Logo.jpg" height="100" width="100"/>
                     </a>
             </div>
-                <div class="h1 p-5 m-auto">
+                <div class="h1 p-5 m-auto overskrifttype">
                     <h1>Dansk Model Jernbane Union</h1>
                 </div>
                 <div id="login-box" class="container position-relative">
@@ -35,7 +39,7 @@
 
                     <div class="container mt-2"> <!-- Medlem -->
                         <div class="row">
-                            <a id="red-button" class="btn btn-primary" href="subpages/medlem.html" role="button">Medlem</a>
+                            <a id="l1-btn" class="btn btn-primary red-button" href="subpages/medlem.html red-button" role="button">Medlem</a>
                         </div>
                     </div> <!-- /Medlem -->
                 </div>
@@ -103,8 +107,7 @@
         </nav>
     </header>
 
-
-        <section  class="container"> <!-- Nyheder -->
+        <section class="container grey-transparent"> <!-- Nyheder -->
             <h4>Seneste Nyt</h4>
             <div class="d-flex flex-wrap row">
                 <div class="col">
@@ -140,7 +143,18 @@
             </div>
         </section> <!-- /Nyheder -->
 
-    <section id="grey-transparent" class="container mt-4 mb-4"> <!-- Nyheder -->
+    <section class="container mt-4 mb-4 bg-secondary">
+    <h4 class="text-center text-white">Velkommen til Dansk Model Jernbane Union, bedre kendt som bare DMJU.</h4>
+        <p class="text-center text-white">
+            Den hjemmeside du besøger lige nu, er den primære kommunikations linie mellem DMJU, medlemsklubberne og offentligheden – det er her nyhederne først læses og kommende events offentliggøres, og det er her du finder alle praktiske oplysninger om modeljernbanehobbyen i Danmark og udlandet. Og det er også her du finder kontakt info til alle 105 modeljernbaneklubber der er medlem af DMJU. 
+        </p>
+        <a>
+            <a id="m1-btn" class="btn btn-primary d-flex justify-content-center mb-2 red-button" href="subpages/medlem.html" role="button">Læs meget mere om DJMU her</a>
+        </a>
+    </section>
+
+
+    <section class="container mt-4 mb-4 grey-transparent"> <!-- Flavor tekst -->
         <h3 class="text-center">DMJU Præsentere: MODELTOG for alle 2025</h3>
         <div class="d-flex flex-wrap row">
             <div class="col-md-8">
@@ -151,7 +165,9 @@
                 <h5>En udflugt for HELE familien</h5>
                     <p>DMJU arrangerer hvert år Danmarks største model jernbane udstilling “MODELTOG FOR ALLE”. Med mere end 20 store klubanlæg i flere skalastørrelser, events, og mange butiks stande med gode tilbud, er DMJU’s udstillinger et must for både de inkarnerede model jernbane entusiaster og børnefamilierne. Udstillingerne er et godt udflugtsmål på en lørdag eller søndag. </p>
                 </div>
-            </div>
+            </div> <!-- /Flavor tekst -->
+
+            <!-- Info -->
             <div class="col-md-4">
                 <p>Åbningstider:</p>
                 <p>Lørdag 29. Marts 2025  kl. 10-17</p>
@@ -165,7 +181,8 @@
                  </div>
 
         </div>
-    </section> <!-- /Nyheder -->
+
+    </section> <!-- /Flavor tekst -->
 
     <footer id="footer" class="text-center text-muted m-auto col-12 col-md-11 flex bg-blue">
         <nav id="navbar-custom" class="navbar navbar-expand-lg">
