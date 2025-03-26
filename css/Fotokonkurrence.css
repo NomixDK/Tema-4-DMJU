@@ -41,7 +41,7 @@
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
+    color: #f8f6f6;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;
@@ -91,4 +91,8 @@ ul {
     padding: 10px;
     text-align: center;
     background-color: yellow;
+}
+.container {
+
+
 }
